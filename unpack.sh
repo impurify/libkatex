@@ -3,7 +3,7 @@
 set -e
 
 tarball="$1"
-out="ktx"
+out="_katex_"
 
 if [ ! -f "${tarball}" ]; then
 	echo "ENOENT: ${tarball}" >&2
@@ -14,8 +14,8 @@ mkdir -p "${out}/fonts"
 
 tar -xf "${tarball}" -C "${out}" --strip-components=1 "katex/katex.min.css"
 
-tar -xf "${tarball}" -C "${out}" --strip-components=1 "katex/katex.mjs"
-tar -xf "${tarball}" -C "${out}" --strip-components=2 "katex/contrib/mhchem.mjs"
+tar -xf "${tarball}" -C "${out}" --strip-components=1 "katex/katex.js"
+tar -xf "${tarball}" -C "${out}" --strip-components=2 "katex/contrib/mhchem.js"
 
 tar -xf "${tarball}" -C "${out}/fonts" --strip-components=2 \
 	--wildcards \
