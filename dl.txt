@@ -1,2 +1,0 @@
-quickjs-2024-01-13.tar.xz https://bellard.org/quickjs/quickjs-2024-01-13.tar.xz
-katex-v0.16.20.tar.gz https://github.com/KaTeX/KaTeX/releases/download/v0.16.20/katex.tar.gz
