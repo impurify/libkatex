@@ -1,0 +1,33 @@
+.\" Copyright (c) 2025 impurify <have@anonymous.sex>.
+.\"
+.\" [REDACTED]
+.\"
+.Dd January 14, 2025
+.Dt LIBKATEX 3
+.Os The Internet
+.Sh NAME
+.Nm libkatex
+.Nd Lightweight C library that embeds the KaTeX Web maths system
+.Sh SYNOPSIS
+.Nm
+.Sh DESCRIPTION
+.Nm
+uses the QuickJS Javascript Engine to embed KaTeX in a C library.
+It takes snippets of LaTeX as inputs, and outputs HTML and/or MathML.
+It is intended for server-side rendering of
+.Xr markdown 5
+or other formats with embedded mathematics.
+.Sh SECURITY CONSIDERATIONS
+Although
+.Nm
+is 
+.Sh SEE ALSO
+.Xr lowdown 3
+.Xr katex 5
+.Xr documentweb 7
+.Sh AUTHORS
+.Nm
+was written by
+.An impurify
+.Aq have@anonymous.sex ,
+who has no affiliation to the KaTeX and QuickJS authors.
