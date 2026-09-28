@@ -2,5 +2,5 @@
 *.o
 *.so
 _auto_*
+ktx
 xx[0-9][0-9]
-vendor
